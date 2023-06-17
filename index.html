@@ -46,6 +46,7 @@
             "@context":"https://schema.org/",
             "@type":"Dataset",
             "name":"FADE dataset",
+            "alternateName": "FADE",
             "description":"Falling objects from buildings can cause severe injuries to pedestrians due to the great impact force they exert. Although surveillance cameras have been mounted around some buildings, it is difficult for humans to spot such events by watching surveillance videos due to the small sizes and fast motion of falling objects and complex background. It is very necessary to develop algorithms to automatically detect the falling objects around buildings in surveillance videos. To facilitate the development of falling object detection algorithms, we propose a large diverse video dataset, termed FADE, for FAlling object DEtection around buildings. Our dataset contains 1881 videos taken from 18 scenes with 8 falling object categories, 4 weather conditions and 4 video resolutions. We also propose a new object detection method which effectively leverages motion information for falling object detection around buildings. We extensively evaluate and analyze our method and other 13 previous methods including generic object detection methods, video object detection methods and moving object detections on the proposed FADE dataset.Our method achieves significant improvements over the other methods, providing an effective baseline for future research. The dataset and code are available at [https://fadedataset.github.io/FADE.github.io/](https://fadedataset.github.io/FADE.github.io/)",
             "url":"https://fadedataset.github.io/FADE.github.io/"
           }
@@ -133,18 +134,23 @@
             <br> <br> <br><br>
             <h3><b>Introduction</b></h3>
             <p>
-                Falling objects (even small ones) from the high-rise buildings, which have the characteristics of the
-                fast moving speed and short collision time, would cause severe harm to the people who pass by, as the
-                falling objects can produce tremendous impact force. However, due to the reasons that the background is
-                complicated and changeable (e.g. illumination and weather variation), falling objects in the monitoring
-                video are small and sometimes blurred due to fast motion, and there is no available benchmark dataset
-                specialized for falling object detection (the most crucial factor), falling object detection is rarely
-                studied and the accuracy is low.
-                To address these issues, we construct a benchmark video dataset termed as <b>FADE</b>, the first one for
-                <b>FA</b>lling object <b>DE</b>tection around buildings. Our dataset is diverse, which contains ten
-                object categories from 18 scenes with four weather conditions, and four video resolutions.
+                Falling objects from buildings can cause severe injuries to pedestrians due to the
+                great impact force they exert. Although surveillance cameras have been mounted
+                around some buildings, it is difficult for humans to spot such events by watching
+                surveillance videos due to the small sizes and fast motion of falling objects and
+                complex background. It is very necessary to develop algorithms to automatically
+                detect the falling objects around buildings in surveillance videos. To facilitate the
+                development of falling object detection algorithms, we propose a large diverse
+                video dataset, termed FADE, for <b>FA</b>lling object <b>DE</b>tection around buildings. Our
+                dataset contains 1881 videos taken from 18 scenes with 8 falling object categories,
+                weather conditions and 4 video resolutions. We also propose a new object
+                detection method which effectively leverages motion information for falling object
+                detection around buildings. We extensively evaluate and analyze our method and
+                other 13 previous methods including generic object detection methods, video object
+                detection methods and moving object detections on the proposed FADE dataset.
+                Our method achieves significant improvements over the other methods, providing
+                an effective baseline for future research. 
             </p>
-
 
             <div class="row aos-init aos-animate" data-aos="fade-up">
                 <div class="col-md-7 order-2 order-md-1 pt-5">
